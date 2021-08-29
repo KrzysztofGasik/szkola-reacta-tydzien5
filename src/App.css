@@ -1,10 +1,12 @@
-
-
 .App {
-  /* display: grid; */
+
   position: relative;
 	height: 90vh;
 	width: 100%;
 	box-sizing: border-box;
 	overflow: hidden;
+}
+
+.App p {
+	text-align: center;
 }

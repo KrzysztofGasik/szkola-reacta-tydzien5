@@ -25,6 +25,7 @@ export default function Wrapper() {
 
 	return (
 		<div style={styles}>
+			<p>Zadanie 1</p>
 			<button onClick={toggle} style={styles.button}>
 				Toggle visibility of dialog window
 			</button>

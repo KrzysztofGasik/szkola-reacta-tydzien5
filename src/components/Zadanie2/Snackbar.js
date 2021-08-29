@@ -74,7 +74,7 @@ export default function Snackbar({ time, show, handler, position }) {
 		return () => {
 			clearTimeout(timer);
 		};
-	}, []);
+	}, [handler,show,time]);
 
 	return <div style={{ ...styles, ...propsPosition }}>Snackbar</div>;
 }

@@ -27,8 +27,9 @@ export default function Wrapper() {
 
 	return (
 		<div style={styles}>
+			<p>Zadanie 2</p>
 			<button onClick={snackbarHandler} style={styles.button}>
-				Open snackbar
+				{toggle ? 'Close snackbar' : 'Open snackbar'}
 			</button>
 			{toggle ? <Snackbar time="25" show={toggle} handler={snackbarHandler} position="bottom-right" /> : null}
 		</div>
