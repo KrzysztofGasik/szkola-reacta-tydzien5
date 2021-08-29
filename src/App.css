@@ -1,5 +1,10 @@
+
+
 .App {
-  display: grid;
-  /* grid-template-columns: repeat(auto-fit,minmax(350px,auto)); */
-  place-content: center;
+  /* display: grid; */
+  position: relative;
+	height: 90vh;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
 }
