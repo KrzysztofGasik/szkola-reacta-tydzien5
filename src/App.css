@@ -10,3 +10,7 @@
 .App p {
 	text-align: center;
 }
+
+.active {
+	color: red;
+}
